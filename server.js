@@ -753,7 +753,7 @@ const server = http.createServer(async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(`✅ Servidor rodando em ${PORT}`);
+  console.log(`✅ Servidor rodando em http://localhost:${PORT}`);
   console.log(`📊 Total de elevadores carregados: ${elevadores.length}`);
   console.log(
     `👥 Total de clientes carregados: ${clientesData.clientes.length}`
